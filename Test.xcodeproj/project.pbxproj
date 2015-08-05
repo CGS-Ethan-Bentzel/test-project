@@ -13,6 +13,7 @@
 		F622DAA51B686504003D439C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F622DAA41B686504003D439C /* Images.xcassets */; };
 		F622DAA81B686504003D439C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F622DAA61B686504003D439C /* LaunchScreen.xib */; };
 		F622DAB41B686504003D439C /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F622DAB31B686504003D439C /* TestTests.swift */; };
+		F6A28EC21B719B790029D97D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6A28EC11B719B790029D97D /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F622DAAD1B686504003D439C /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F622DAB21B686504003D439C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F622DAB31B686504003D439C /* TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTests.swift; sourceTree = "<group>"; };
+		F6A28EC11B719B790029D97D /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				F622DAA41B686504003D439C /* Images.xcassets */,
 				F622DAA61B686504003D439C /* LaunchScreen.xib */,
 				F622DA9B1B686504003D439C /* Supporting Files */,
+				F6A28EC11B719B790029D97D /* SecondViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6A28EC21B719B790029D97D /* SecondViewController.swift in Sources */,
 				F622DAA01B686504003D439C /* ViewController.swift in Sources */,
 				F622DA9E1B686504003D439C /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				F622DAB91B686504003D439C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F622DABA1B686504003D439C /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				F622DABC1B686504003D439C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
